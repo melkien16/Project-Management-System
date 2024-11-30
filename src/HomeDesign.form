@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HomeDesign">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="0" width="595" height="715"/>
+    </constraints>
+    <properties>
+      <background color="-2104859"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="13d14" binding="innerLabel" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16767923"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8536a" class="javax.swing.JLabel" binding="userNameLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bernard MT Condensed" size="22" style="3"/>
+              <foreground color="-5723475"/>
+              <text value="  username  "/>
+            </properties>
+          </component>
+          <component id="390a6" class="javax.swing.JTextField" binding="usernameField">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="390" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6776163"/>
+              <font name="Monospaced" size="20" style="3"/>
+              <margin top="2" left="9" bottom="2" right="6"/>
+            </properties>
+          </component>
+          <component id="76d1c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bernard MT Condensed" size="22" style="3"/>
+              <foreground color="-5723475"/>
+              <text value="  Password  "/>
+            </properties>
+          </component>
+          <component id="63929" class="javax.swing.JPasswordField" binding="passwordField">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="390" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6776163"/>
+              <echoChar value="*"/>
+              <font name="Monospaced" size="20" style="3"/>
+              <margin top="2" left="9" bottom="2" right="6"/>
+            </properties>
+          </component>
+          <component id="75ed5" class="javax.swing.JRadioButton" binding="studentRadioButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16767923"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="true"/>
+              <font name="Bernard MT Condensed" size="20" style="3"/>
+              <foreground color="-5723475"/>
+              <inheritsPopupMenu value="false"/>
+              <opaque value="true"/>
+              <rolloverEnabled value="true"/>
+              <selected value="true"/>
+              <text value="Student            "/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+          <component id="a3171" class="javax.swing.JRadioButton" binding="coordinatorRadioButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16767923"/>
+              <font name="Bernard MT Condensed" size="20" style="3"/>
+              <foreground color="-5723475"/>
+              <text value="Coordinatore  "/>
+            </properties>
+          </component>
+          <component id="5d7db" class="javax.swing.JRadioButton" binding="instructorRadioButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16767923"/>
+              <font name="Bernard MT Condensed" size="20" style="3"/>
+              <foreground color="-5723475"/>
+              <text value="Instructore     "/>
+            </properties>
+          </component>
+          <component id="2b65b" class="javax.swing.JLabel" binding="loginLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bauhaus 93" size="36" style="3"/>
+              <foreground color="-1838593"/>
+              <text value="Login  "/>
+            </properties>
+          </component>
+          <component id="69307" class="javax.swing.JLabel" binding="messageLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="20" style="3"/>
+              <foreground color="-394241"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bf3b" class="javax.swing.JButton" binding="forgatePassworedButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16767923"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="16" style="2"/>
+              <foreground color="-6776163"/>
+              <text value="Forgate Passwored?  "/>
+            </properties>
+          </component>
+          <component id="44356" class="javax.swing.JButton" binding="signUp">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16767923"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="16" style="2"/>
+              <foreground color="-6776163"/>
+              <label value="Sign UP for new "/>
+              <text value="Sign UP for new "/>
+            </properties>
+          </component>
+          <component id="a6231" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="390" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10680060"/>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="20" style="3"/>
+              <foreground color="-394241"/>
+              <text value="Login"/>
+            </properties>
+          </component>
+          <vspacer id="53a49">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <component id="c4b61" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="36" style="3"/>
+          <foreground color="-10680060"/>
+          <text value="WELLCOME TO YMY SCHOOL "/>
+        </properties>
+      </component>
+      <component id="14ceb" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
